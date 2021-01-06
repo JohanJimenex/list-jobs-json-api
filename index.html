@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Job Listings</title>
+  <!-- my CSS -->
+  <link rel="stylesheet" href="./css/myStyles.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <!-- font from google  -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container-fluid p-0">
+    <img class="img-fluid w-100" src="./images/bg-header-desktop.svg" alt="banner.jpg">
+  </div>
+
+  <div id="contenedorFiltros" class="container p-2 rounded shadow mx-auto col-10">
+  </div>
+  <div class="container text-center my-5">
+    <div>Filtrar:</div>
+    <button class="btn btn-light" onclick="agregarTag(event)">HTML</button>
+    <button class="btn btn-light" onclick="agregarTag(event)">CSS</button>
+    <button class="btn btn-light" onclick="agregarTag(event)">JavaScript</button>
+    <button class="btn btn-light" onclick="agregarTag(event)">Python</button>
+    <button class="btn btn-light" onclick="agregarTag(event)">Fullstack</button>
+    <button class="btn btn-light" onclick="agregarTag(event)">Junior</button>
+    <button class="btn btn-light" onclick="agregarTag(event)">Senior</button>
+    <button class="btn btn-light" onclick="agregarTag(event)">Ruby</button>
+    <button class="btn btn-light" onclick="agregarTag(event)">Midweight</button>
+    <button class="btn btn-light" onclick="agregarTag(event)">Frontend</button>
+    <button class="btn btn-light" onclick="agregarTag(event)">Backend</button>
+  </div>
+
+  <!-- Item Start -->
+  <div id="container" class="container py-5">
+  </div>
+
+
+  <footer class="attribution py-4">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      rel="noopener noreferrer">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
