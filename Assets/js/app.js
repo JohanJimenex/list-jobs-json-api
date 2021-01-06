@@ -112,7 +112,7 @@ function agregarAlHTML(i) {
     <div class="row shadow p-3 my-3 bg-white rounded box">
 
       <div class="col-md-1">
-        <img src="${arrObj[i].logo}" alt="logo">
+        <img src="Assets/images/${arrObj[i].logo}" alt="logo">
       </div>
 
       <div class="col py-2">
