@@ -14,11 +14,13 @@ let arrObj;
 
 //==========================con async await=====================
 (async function pedirJson() {
-  try {
-    const responseJson = await fetch('../data.json');
+  try{
+
+    const responseJson = await fetch('Assets/json/data.json');
     arrObj = await responseJson.json();
     agregarObj(arrObj)
-  } catch (error) {
+
+  }catch(error){
     console.log(error);
   }
 
